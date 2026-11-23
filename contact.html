@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Inquiries — Auren Architecture & Interior Design</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,800,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Custom Magnetic Cursor Follower -->
+  <div class="custom-cursor" id="customCursor">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+
+  <div class="site-container">
+    
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Auren Home">
+          <span>auren</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="index.html" class="nav-link">The Studio</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="careers.html" class="nav-link">Careers</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <a href="contact.html" class="nav-link contact-link active">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. SUBPAGE HERO -->
+    <section class="subpage-hero">
+      <div class="subpage-hero-inner">
+        <nav class="subpage-breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">The Studio</a>
+          <span class="subpage-breadcrumb-sep">/</span>
+          <span class="subpage-breadcrumb-curr">Contact & Inquiries</span>
+        </nav>
+        <h1 class="subpage-title kinetic-split" data-text="Contact">
+          Contact
+        </h1>
+        <p class="subpage-lead">
+          We accept a select number of architectural and interior commissions each year to ensure uncompromising dedication to every spatial creation.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. CONTACT SECTION -->
+    <section class="contact-section">
+      <div class="contact-grid">
+        <!-- Form Column -->
+        <div class="contact-form-col" style="padding: 48px;">
+          <h2 style="font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1.5rem;">
+            Commission Inquiry
+          </h2>
+          <form id="studioContactForm" aria-label="Architectural Commission Inquiry Form">
+            <div class="form-group">
+              <label for="clientName" class="form-label">Your Name</label>
+              <input type="text" id="clientName" class="form-control" placeholder="Elena Vance" required>
+            </div>
+
+            <div class="form-group">
+              <label for="clientEmail" class="form-label">Email Address</label>
+              <input type="email" id="clientEmail" class="form-control" placeholder="elena@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="projectType" class="form-label">Project Typology</label>
+              <select id="projectType" class="form-select" required>
+                <option value="" disabled selected>Select project typology</option>
+                <option value="residential">Private Residence / Villa</option>
+                <option value="hospitality">Boutique Hospitality / Hotel</option>
+                <option value="cultural">Cultural Landmark / Gallery</option>
+                <option value="interior">Interior Architecture & Joinery</option>
+                <option value="commercial">Creative Workplace / Commercial</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="projectLocation" class="form-label">Project Location</label>
+              <input type="text" id="projectLocation" class="form-control" placeholder="City, Country (e.g. Zürich, Switzerland)" required>
+            </div>
+
+            <div class="form-group">
+              <label for="projectBudget" class="form-label">Estimated Investment Scale</label>
+              <select id="projectBudget" class="form-select">
+                <option value="tier1">€1.5M – €3M</option>
+                <option value="tier2">€3M – €7M</option>
+                <option value="tier3">€7M – €15M+</option>
+                <option value="eval">In Evaluation / Pre-Purchase</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="projectScope" class="form-label">Project Scope & Vision</label>
+              <textarea id="projectScope" class="form-textarea" placeholder="Tell us about the site terrain, architectural ambitions, and intended timeline..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn hover-arrow" data-cursor="arrow">
+              <span>Transmit Project Inquiry</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Info Column -->
+        <div class="contact-info-col">
+          <h2 style="font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+            Studio Locations
+          </h2>
+
+          <!-- Location 1 -->
+          <div class="studio-loc-card">
+            <span class="section-badge">ZÜRICH ATELIER (HQ)</span>
+            <h3>Zürich Main Studio</h3>
+            <p>Bahnhofstrasse 48<br>8001 Zürich, Switzerland</p>
+            <p style="margin-top: 0.75rem;">+41 44 820 19 00</p>
+            <a href="mailto:studio@aurenstudio.com">studio@aurenstudio.com</a>
+          </div>
+
+          <!-- Location 2 -->
+          <div class="studio-loc-card">
+            <span class="section-badge">BERLIN ATELIER</span>
+            <h3>Berlin Design Lab</h3>
+            <p>Linienstraße 132<br>10115 Berlin, Germany</p>
+            <p style="margin-top: 0.75rem;">+49 30 610 88 40</p>
+            <a href="mailto:berlin@aurenstudio.com">berlin@aurenstudio.com</a>
+          </div>
+
+          <!-- Inquiries & Media -->
+          <div class="studio-loc-card">
+            <span class="section-badge">PRESS & TALENT</span>
+            <h3>Publications & Careers</h3>
+            <p>For press features, lectures, and monographs:<br><a href="mailto:press@aurenstudio.com">press@aurenstudio.com</a></p>
+            <p style="margin-top: 0.75rem;">For portfolio submissions and career inquiries:<br><a href="mailto:careers@aurenstudio.com">careers@aurenstudio.com</a></p>
+            <p style="margin-top: 1rem; font-size: 13px; color: var(--text-muted);">
+              Studio Hours: Monday – Friday, 09:00 – 18:00 CET
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GRAND FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Top Nav Links -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-nav-list">
+            <li><a href="projects.html" class="f-link">Projects</a></li>
+            <li><a href="services.html" class="f-link">Services</a></li>
+            <li><a href="index.html" class="f-link">About</a></li>
+            <li><a href="blog.html" class="f-link">Blog</a></li>
+            <li><a href="careers.html" class="f-link">Careers</a></li>
+            <li><a href="contact.html" class="f-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Legal Meta -->
+        <div class="footer-legal">
+          <span class="f-copy">© 2026 Auren LLC</span>
+          <a href="privacy.html" class="f-privacy">Privacy Policy</a>
+        </div>
+
+        <!-- Massive Watermark Logo -->
+        <div class="footer-watermark-wrap" aria-hidden="true">
+          <span class="footer-watermark">auren</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

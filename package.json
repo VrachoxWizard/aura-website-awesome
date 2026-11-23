@@ -1,0 +1,13 @@
+{
+  "name": "auren-studio-landing-page",
+  "version": "1.0.0",
+  "description": "Pixel-perfect landing page replication of Auren Studio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

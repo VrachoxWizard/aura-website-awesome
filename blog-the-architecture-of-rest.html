@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Architecture of Rest — The Journal — Auren Studio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,800,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Custom Magnetic Cursor Follower -->
+  <div class="custom-cursor" id="customCursor">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+
+  <div class="site-container">
+    
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Auren Home">
+          <span>auren</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="index.html" class="nav-link">The Studio</a></li>
+            <li><a href="blog.html" class="nav-link active">Blog</a></li>
+            <li><a href="careers.html" class="nav-link">Careers</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <a href="contact.html" class="nav-link contact-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. ARTICLE CONTENT -->
+    <main class="article-container">
+      <nav class="subpage-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">The Studio</a>
+        <span class="subpage-breadcrumb-sep">/</span>
+        <a href="blog.html">Journal</a>
+        <span class="subpage-breadcrumb-sep">/</span>
+        <span class="subpage-breadcrumb-curr">Architecture of Rest</span>
+      </nav>
+
+      <header class="article-header">
+        <h1 class="article-title">
+          The Architecture of Rest: Designing Spaces for Digital Satiety
+        </h1>
+        <div class="article-meta-row">
+          <span class="article-meta-author">Daniel Foster</span>
+          <span>·</span>
+          <span>October 15, 2026</span>
+          <span>·</span>
+          <span>6 min read</span>
+          <span>·</span>
+          <span>Philosophy & Living</span>
+        </div>
+      </header>
+
+      <div class="article-lead-image">
+        <img src="./assets/images/hero-1.jpg" alt="Monolithic coastal residential cliff sanctuary" loading="lazy">
+      </div>
+
+      <article class="article-body">
+        <p class="article-intro">
+          In an era characterized by cognitive fragmentation and continuous digital stimuli, true luxury is no longer defined by ornamentation or technological excess. True luxury is silence, spatial clarity, and the absence of visual noise.
+        </p>
+
+        <p>
+          Architecture holds an unspoken responsibility toward human mental equilibrium. The homes we inhabit can either perpetuate the sensory friction of modern urbanity or serve as regenerative sanctuaries where our nervous systems are allowed to decompress.
+        </p>
+
+        <h2>Acoustic Restraint as Spatial Structure</h2>
+        <p>
+          We often experience architecture visually, yet its psychological impact is profoundly auditory. A hard-surfaced room where footsteps echo and appliances hum triggers subconscious vigilance. In our residential projects, acoustic stillness is treated with the same priority as structural engineering.
+        </p>
+        <p>
+          Through concealed micro-perforated acoustic timber linings, strategic spatial setbacks, and dense natural plastering, we dampen reverberation to a gentle, conversational threshold. In these spaces, conversations feel intimate, and quietude becomes a tangible physical presence.
+        </p>
+
+        <div class="article-quote">
+          <p>“When you strip away distracting visual hardware and intrusive noise, the room stops demanding your attention. It quietly holds you instead.”</p>
+          <cite>— Daniel Foster, Technical Director</cite>
+        </div>
+
+        <h2>Uninterrupted Horizons</h2>
+        <p>
+          The human eye finds rest in distant focal depths. By framing uninterrupted horizons—whether across an alpine valley, a calm body of water, or a quiet private courtyard—we invite the inhabitant’s gaze to wander into the distance, resetting ocular strain and mental fatigue.
+        </p>
+        <p>
+          By removing superfluous thresholds, concealing mechanical vents, and integrating storage seamlessly into architectural wall planes, we design residences that feel expansive, coherent, and profoundly restorative.
+        </p>
+
+        <!-- Author Biography Card -->
+        <div class="article-author-card">
+          <img src="./assets/images/founder-daniel.jpg" alt="Daniel Foster" class="author-portrait-img">
+          <div class="author-bio">
+            <h3>Daniel Foster</h3>
+            <p>Partner and Technical Director at Auren Studio, overseeing structural engineering coordination, acoustic optimization, and high-performance building envelope innovations.</p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- 3. RELATED ESSAYS -->
+    <aside class="related-articles-section">
+      <div class="process-header">
+        <span class="section-badge">CONTINUE READING</span>
+        <h2 style="font-family: var(--font-display); font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 700; letter-spacing: -0.03em;">
+          Related Studio Essays
+        </h2>
+      </div>
+
+      <div class="blog-grid" style="margin-bottom: 0;">
+        <a href="blog-raw-materiality.html" class="blog-card hover-arrow" data-cursor="arrow">
+          <div class="blog-card-img">
+            <img src="./assets/images/highlight-1.jpg" alt="Natural timber and stone sample library" loading="lazy">
+          </div>
+          <span class="blog-card-tag">MATERIALITY</span>
+          <h3 class="blog-card-title">Raw Materiality: Why Untreated Stone and White Oak Outlast Trends</h3>
+          <p class="blog-card-excerpt">
+            An investigation into tactile authentic surfaces that gracefully patina over decades.
+          </p>
+          <span class="blog-card-date">Sofia Bennett · Oct 28, 2026 · 5 min read</span>
+        </a>
+
+        <a href="blog-adaptive-reuse.html" class="blog-card hover-arrow" data-cursor="arrow">
+          <div class="blog-card-img">
+            <img src="./assets/images/hero-3.jpg" alt="Historic masonry and modern glass" loading="lazy">
+          </div>
+          <span class="blog-card-tag">HERITAGE</span>
+          <h3 class="blog-card-title">Adaptive Reuse: Preserving Soul in Historic Fabrications</h3>
+          <p class="blog-card-excerpt">
+            Balancing historic masonry preservation with contemporary environmental performance.
+          </p>
+          <span class="blog-card-date">Elena Rostova · Sep 30, 2026 · 8 min read</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- 4. GRAND FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Top Nav Links -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-nav-list">
+            <li><a href="projects.html" class="f-link">Projects</a></li>
+            <li><a href="services.html" class="f-link">Services</a></li>
+            <li><a href="index.html" class="f-link">About</a></li>
+            <li><a href="blog.html" class="f-link">Blog</a></li>
+            <li><a href="careers.html" class="f-link">Careers</a></li>
+            <li><a href="contact.html" class="f-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Legal Meta -->
+        <div class="footer-legal">
+          <span class="f-copy">© 2026 Auren LLC</span>
+          <a href="privacy.html" class="f-privacy">Privacy Policy</a>
+        </div>
+
+        <!-- Massive Watermark Logo -->
+        <div class="footer-watermark-wrap" aria-hidden="true">
+          <span class="footer-watermark">auren</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

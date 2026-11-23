@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Studio — Auren Architecture & Interior Design</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,800,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Custom Magnetic Cursor Follower -->
+  <div class="custom-cursor" id="customCursor">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+
+  <div class="site-container">
+    
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Auren Home">
+          <span>auren</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="index.html" class="nav-link active">The Studio</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="careers.html" class="nav-link">Careers</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <a href="contact.html" class="nav-link contact-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section" id="the-studio">
+      <div class="hero-content">
+        <h1 class="hero-title kinetic-split" data-text="The Studio">
+          The Studio
+        </h1>
+      </div>
+
+      <!-- Marquee Carousel -->
+      <div class="hero-marquee-wrapper" aria-hidden="true">
+        <div class="hero-marquee-track">
+          <!-- Set 1 -->
+          <div class="marquee-item"><img src="./assets/images/hero-1.jpg" alt="Auren Modern Architecture 1"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-2.jpg" alt="Auren Modern Architecture 2"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-3.jpg" alt="Auren Modern Architecture 3"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-4.jpg" alt="Auren Modern Architecture 4"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-5.jpg" alt="Auren Modern Architecture 5"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-6.jpg" alt="Auren Modern Architecture 6"></div>
+          <!-- Set 2 (Seamless loop) -->
+          <div class="marquee-item"><img src="./assets/images/hero-1.jpg" alt="Auren Modern Architecture 1"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-2.jpg" alt="Auren Modern Architecture 2"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-3.jpg" alt="Auren Modern Architecture 3"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-4.jpg" alt="Auren Modern Architecture 4"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-5.jpg" alt="Auren Modern Architecture 5"></div>
+          <div class="marquee-item"><img src="./assets/images/hero-6.jpg" alt="Auren Modern Architecture 6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. STATEMENT SECTION -->
+    <section class="statement-section" id="statement">
+      <div class="statement-container">
+        <span class="statement-year left-year">2016</span>
+        <h2 class="statement-text">
+          We create timeless architectural and interior spaces focused on clarity, functionality, and modern living
+        </h2>
+        <span class="statement-year right-year">2025</span>
+      </div>
+    </section>
+
+    <!-- 4. PHILOSOPHY SECTION -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="philosophy-grid">
+        <div class="philosophy-text-col">
+          <span class="section-badge">PHILOSOPHY</span>
+          <p class="philosophy-lead">
+            Every project is shaped through proportion, light, texture, and spatial balance. We believe great design should feel natural over time, creating environments that are both functional and emotionally connected to everyday life
+          </p>
+          <div class="philosophy-sub-image">
+            <img src="./assets/images/philosophy-sofa.jpg" alt="Light and shadow over modern interior sofa" loading="lazy">
+          </div>
+        </div>
+
+        <div class="philosophy-visual-col">
+          <div class="philosophy-hero-image">
+            <img src="./assets/images/philosophy-villa.jpg" alt="Modernist residential architectural villa" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. MEET THE FOUNDERS SECTION -->
+    <section class="founders-section" id="founders">
+      <div class="founders-container">
+        <div class="founders-sticky-header">
+          <span class="section-badge">MEET THE FOUNDERS</span>
+        </div>
+
+        <div class="founders-list" id="foundersList">
+          <!-- Founder 1 -->
+          <div class="founder-card" data-founder="1">
+            <div class="founder-image-wrap">
+              <img src="./assets/images/founder-elena.jpg" alt="Elena Carter" class="founder-img">
+            </div>
+            <div class="founder-meta">
+              <span class="founder-index">01</span>
+              <h2 class="founder-name kinetic-split" data-text="Elena Carter">
+                <span class="name-line">Elena</span>
+                <span class="name-line">Carter</span>
+              </h2>
+              <span class="founder-role">FOUNDER & CREATIVE DIRECTOR</span>
+              <p class="founder-bio">
+                Leads the studio's creative vision with a focus on timeless interiors, spatial harmony, and material storytelling.
+              </p>
+            </div>
+          </div>
+
+          <!-- Founder 2 -->
+          <div class="founder-card" data-founder="2">
+            <div class="founder-image-wrap">
+              <img src="./assets/images/founder-marcus.jpg" alt="Marcus Lindberg" class="founder-img">
+            </div>
+            <div class="founder-meta">
+              <span class="founder-index">02</span>
+              <h2 class="founder-name kinetic-split" data-text="Marcus Lindberg">
+                <span class="name-line">Marcus</span>
+                <span class="name-line">Lindberg</span>
+              </h2>
+              <span class="founder-role">LEAD ARCHITECT</span>
+              <p class="founder-bio">
+                Specializes in contemporary residential architecture shaped by simplicity, proportion, and natural light.
+              </p>
+            </div>
+          </div>
+
+          <!-- Founder 3 -->
+          <div class="founder-card" data-founder="3">
+            <div class="founder-image-wrap">
+              <img src="./assets/images/founder-sofia.jpg" alt="Sofia Bennett" class="founder-img">
+            </div>
+            <div class="founder-meta">
+              <span class="founder-index">03</span>
+              <h2 class="founder-name kinetic-split" data-text="Sofia Bennett">
+                <span class="name-line">Sofia</span>
+                <span class="name-line">Bennett</span>
+              </h2>
+              <span class="founder-role">SENIOR INTERIOR DESIGNER</span>
+              <p class="founder-bio">
+                Creates refined interior concepts balancing warmth, functionality, and modern aesthetics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Founder 4 -->
+          <div class="founder-card" data-founder="4">
+            <div class="founder-image-wrap">
+              <img src="./assets/images/founder-daniel.jpg" alt="Daniel Foster" class="founder-img">
+            </div>
+            <div class="founder-meta">
+              <span class="founder-index">04</span>
+              <h2 class="founder-name kinetic-split" data-text="Daniel Foster">
+                <span class="name-line">Daniel</span>
+                <span class="name-line">Foster</span>
+              </h2>
+              <span class="founder-role">PROJECT LEAD</span>
+              <p class="founder-bio">
+                Oversees project coordination and execution, ensuring clarity and consistency throughout every stage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. STUDIO HIGHLIGHTS (EXPANDING ACCORDION) -->
+    <section class="highlights-section" id="services">
+      <div class="highlights-header">
+        <span class="section-badge centered">STUDIO HIGHLIGHTS</span>
+        <h2 class="highlights-title">
+          Designed for creativity<br>and collaboration
+        </h2>
+      </div>
+
+      <div class="highlights-accordion" id="highlightsAccordion">
+        <!-- Card 1 -->
+        <div class="highlight-card active" data-card="1">
+          <div class="highlight-num">01</div>
+          <div class="highlight-body">
+            <div class="highlight-visual">
+              <img src="./assets/images/highlight-1.jpg" alt="Material Library">
+              <div class="highlight-label-overlay">
+                <span class="overlay-text">Material<br>Library</span>
+              </div>
+            </div>
+            <div class="highlight-detail">
+              <p class="highlight-desc">
+                Our studio reflects the same principles we bring into every project — calm atmosphere, refined materials, natural light, and intentional design decisions that support both creativity and focus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="highlight-card" data-card="2">
+          <div class="highlight-num">02</div>
+          <div class="highlight-body">
+            <div class="highlight-visual">
+              <img src="./assets/images/highlight-2.jpg" alt="Collaborative Workspace">
+              <div class="highlight-label-overlay">
+                <span class="overlay-text">Collaborative<br>Workspace</span>
+              </div>
+            </div>
+            <div class="highlight-detail">
+              <p class="highlight-desc">
+                A space built for shared thinking — open conversations, exchanged references, honest feedback, and a flexible setting that turns individual ideas into a common direction.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="highlight-card" data-card="3">
+          <div class="highlight-num">03</div>
+          <div class="highlight-body">
+            <div class="highlight-visual">
+              <img src="./assets/images/highlight-3.jpg" alt="Design Archive">
+              <div class="highlight-label-overlay">
+                <span class="overlay-text">Design<br>Archive</span>
+              </div>
+            </div>
+            <div class="highlight-detail">
+              <p class="highlight-desc">
+                A living record of our practice — early sketches, material samples, completed projects, and the quiet decisions in between that continue to shape everything we design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. RECOGNITION (AWARDS & FEATURED IN) -->
+    <section class="recognition-section" id="recognition">
+      <div class="recognition-header">
+        <h2 class="recognition-title">
+          Recognized for<br>modern, thoughtful<br>design
+        </h2>
+      </div>
+
+      <div class="recognition-table-container" style="padding-top: 36px;">
+        <div class="recognition-grid">
+          <!-- Column 1: AWARDS -->
+          <div class="rec-column awards-col">
+            <h3 class="rec-col-title">AWARDS</h3>
+            <ul class="rec-list">
+              <li class="rec-item">
+                <span class="rec-name">Interior Design Excellence Award</span>
+                <span class="rec-year">2024</span>
+              </li>
+              <li class="rec-item">
+                <span class="rec-name">Contemporary Architecture</span>
+                <span class="rec-year">2023</span>
+              </li>
+              <li class="rec-item">
+                <span class="rec-name">Spatial Design</span>
+                <span class="rec-year">2022</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 2: FEATURED IN -->
+          <div class="rec-column featured-col">
+            <h3 class="rec-col-title">FEATURED IN</h3>
+            <ul class="rec-list cursor-trigger-list">
+              <li class="rec-item hover-arrow" data-cursor="arrow">
+                <a href="#archdaily" class="rec-link">
+                  <span class="rec-name">ArchDaily</span>
+                  <span class="rec-num">01</span>
+                </a>
+              </li>
+              <li class="rec-item hover-arrow" data-cursor="arrow">
+                <a href="#design" class="rec-link">
+                  <span class="rec-name">Design</span>
+                  <span class="rec-num">02</span>
+                </a>
+              </li>
+              <li class="rec-item hover-arrow" data-cursor="arrow">
+                <a href="#dezeen" class="rec-link">
+                  <span class="rec-name">Dezeen</span>
+                  <span class="rec-num">03</span>
+                </a>
+              </li>
+              <li class="rec-item hover-arrow" data-cursor="arrow">
+                <a href="#minimalissim" class="rec-link">
+                  <span class="rec-name">Minimalissim</span>
+                  <span class="rec-num">04</span>
+                </a>
+              </li>
+              <li class="rec-item hover-arrow" data-cursor="arrow">
+                <a href="#interior-design" class="rec-link">
+                  <span class="rec-name">Interior Design Magazine</span>
+                  <span class="rec-num">05</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. SELECTED CLIENTS SECTION -->
+    <section class="clients-section" id="clients">
+      <div class="clients-grid">
+        <div class="clients-text-col">
+          <p class="clients-intro">
+            We collaborate with homeowners, hospitality brands, and property developers to create spaces that combine timeless aesthetics with long-term functionality.
+          </p>
+          <div class="clients-featured-image">
+            <img src="./assets/images/client-interior.jpg" alt="Auren Selected Client Interior Design" id="clientActiveImg">
+          </div>
+        </div>
+
+        <div class="clients-list-col">
+          <span class="section-badge right-aligned">SELECTED CLIENTS</span>
+          <ul class="clients-list" id="clientsList">
+            <li class="client-item active" data-img="./assets/images/client-interior.jpg">
+              <span class="client-name">North Vale Developments</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/hero-4.jpg">
+              <span class="client-name">Atelier Properties</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/hero-3.jpg">
+              <span class="client-name">Monarca Hospitality</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/hero-5.jpg">
+              <span class="client-name">Forma Living</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/highlight-1.jpg">
+              <span class="client-name">Studio Forma Lighting</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/philosophy-villa.jpg">
+              <span class="client-name">Nordic Surface Co.</span>
+            </li>
+            <li class="client-item" data-img="./assets/images/hero-6.jpg">
+              <span class="client-name">Altura Estates</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="testimonials-grid">
+        <div class="testimonials-header-col">
+          <h2 class="testimonials-title">
+            What our<br>clients say
+          </h2>
+          <div class="testimonials-nav-btns">
+            <button class="t-nav-btn prev" id="tPrevBtn" aria-label="Previous Testimonial">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </button>
+            <button class="t-nav-btn next" id="tNextBtn" aria-label="Next Testimonial">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+          <!-- Indicators -->
+          <div class="testimonials-indicators" id="tIndicators" role="tablist" aria-label="Testimonial Navigation">
+            <button class="t-dot active" data-idx="0" aria-label="Review 1 of 5"></button>
+            <button class="t-dot" data-idx="1" aria-label="Review 2 of 5"></button>
+            <button class="t-dot" data-idx="2" aria-label="Review 3 of 5"></button>
+            <button class="t-dot" data-idx="3" aria-label="Review 4 of 5"></button>
+            <button class="t-dot" data-idx="4" aria-label="Review 5 of 5"></button>
+          </div>
+        </div>
+
+        <div class="testimonials-card-col">
+          <div class="testimonial-card" id="activeTestimonialCard" style="padding: 40px;">
+            <div class="t-card-image">
+              <img src="./assets/images/testimonial-emma.jpg" alt="Emma Larson" id="tImg">
+            </div>
+            <div class="t-card-content">
+              <div class="t-card-top-meta">
+                <span class="t-card-num" id="tNum">01 / 05</span>
+                <span class="t-card-location" id="tLocation">Zürich, Switzerland</span>
+              </div>
+              <blockquote class="t-card-quote" id="tQuote">
+                “The team created a home that feels calm, timeless, and deeply personal. Every detail was thoughtfully considered from start to finish.”
+              </blockquote>
+              <div class="t-card-author">
+                <span class="author-name" id="tAuthor">Emma Larson</span>
+                <span class="author-sub" id="tRole">Private residence client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. GRAND FOOTER -->
+    <footer class="site-footer" id="contact">
+      <div class="footer-container">
+        <!-- Top Nav Links -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-nav-list">
+            <li><a href="projects.html" class="f-link">Projects</a></li>
+            <li><a href="services.html" class="f-link">Services</a></li>
+            <li><a href="index.html" class="f-link">About</a></li>
+            <li><a href="blog.html" class="f-link">Blog</a></li>
+            <li><a href="careers.html" class="f-link">Careers</a></li>
+            <li><a href="contact.html" class="f-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Legal Meta -->
+        <div class="footer-legal">
+          <span class="f-copy">© 2026 Auren LLC</span>
+          <a href="privacy.html" class="f-privacy">Privacy Policy</a>
+        </div>
+
+        <!-- Massive Watermark Logo -->
+        <div class="footer-watermark-wrap" aria-hidden="true">
+          <span class="footer-watermark">auren</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

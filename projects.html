@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Works — Auren Architecture & Interior Design</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,800,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Custom Magnetic Cursor Follower -->
+  <div class="custom-cursor" id="customCursor">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+
+  <div class="site-container">
+    
+    <!-- 1. HEADER & NAVBAR -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Auren Home">
+          <span>auren</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="index.html" class="nav-link">The Studio</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="careers.html" class="nav-link">Careers</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <a href="contact.html" class="nav-link contact-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. SUBPAGE HERO -->
+    <section class="subpage-hero">
+      <div class="subpage-hero-inner">
+        <nav class="subpage-breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">The Studio</a>
+          <span class="subpage-breadcrumb-sep">/</span>
+          <span class="subpage-breadcrumb-curr">Selected Works</span>
+        </nav>
+        <h1 class="subpage-title kinetic-split" data-text="Selected Works">
+          Selected Works
+        </h1>
+        <p class="subpage-lead">
+          A curated curation of residential sanctuaries, cultural landmarks, and mindful commercial spaces shaped with proportion, shadow, and honest materiality.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. PROJECTS FILTER & GRID -->
+    <section class="projects-section">
+      <div class="projects-filter-bar" role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All (6)</button>
+        <button class="filter-btn" data-filter="residential">Residential (3)</button>
+        <button class="filter-btn" data-filter="hospitality">Hospitality (2)</button>
+        <button class="filter-btn" data-filter="cultural">Cultural & Work (1)</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card hover-arrow" data-category="residential" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/philosophy-villa.jpg" alt="Villa Solarium residence in Mallorca" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">Villa Solarium</h2>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-specs">
+            <span>Mallorca, Spain · Architecture & Interior</span>
+            <span>680 m²</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card hover-arrow" data-category="residential" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/hero-2.jpg" alt="The Glass Pavilion in Zürich" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">The Glass Pavilion</h2>
+            <span class="project-year">2024</span>
+          </div>
+          <div class="project-specs">
+            <span>Zürich, Switzerland · Structural Glass & Timber</span>
+            <span>420 m²</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card hover-arrow" data-category="hospitality" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/hero-3.jpg" alt="Monarca Heritage Hotel in Oaxaca" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">Monarca Heritage Hotel</h2>
+            <span class="project-year">2024</span>
+          </div>
+          <div class="project-specs">
+            <span>Oaxaca, Mexico · Adaptive Reuse & Millwork</span>
+            <span>1,850 m²</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card hover-arrow" data-category="cultural" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/highlight-2.jpg" alt="Atelier Haus & Gallery in Berlin" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">Atelier Haus & Gallery</h2>
+            <span class="project-year">2023</span>
+          </div>
+          <div class="project-specs">
+            <span>Berlin, Germany · Creative Studio & Courtyard</span>
+            <span>510 m²</span>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card hover-arrow" data-category="residential" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/hero-4.jpg" alt="Canyon Horizon Residence in Santa Fe" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">Canyon Horizon Residence</h2>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-specs">
+            <span>Santa Fe, USA · Rammed Earth Sanctuary</span>
+            <span>730 m²</span>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card hover-arrow" data-category="hospitality" data-cursor="arrow">
+          <div class="project-img-box">
+            <img src="./assets/images/hero-1.jpg" alt="Nordic Stone Retreat in Stockholm Archipelago" loading="lazy">
+          </div>
+          <div class="project-meta-row">
+            <h2 class="project-title">Nordic Stone Retreat</h2>
+            <span class="project-year">2023</span>
+          </div>
+          <div class="project-specs">
+            <span>Stockholm Archipelago · Cliffside Bath & Hotel</span>
+            <span>1,200 m²</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. GRAND FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Top Nav Links -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-nav-list">
+            <li><a href="projects.html" class="f-link">Projects</a></li>
+            <li><a href="services.html" class="f-link">Services</a></li>
+            <li><a href="index.html" class="f-link">About</a></li>
+            <li><a href="blog.html" class="f-link">Blog</a></li>
+            <li><a href="careers.html" class="f-link">Careers</a></li>
+            <li><a href="contact.html" class="f-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Legal Meta -->
+        <div class="footer-legal">
+          <span class="f-copy">© 2026 Auren LLC</span>
+          <a href="privacy.html" class="f-privacy">Privacy Policy</a>
+        </div>
+
+        <!-- Massive Watermark Logo -->
+        <div class="footer-watermark-wrap" aria-hidden="true">
+          <span class="footer-watermark">auren</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
